@@ -39,7 +39,6 @@ def FormateWeather(weather):
 
 def GetWeather(city):
     try:
-        print(city)
         if(city in [PLACEHOLDER, '']):
             label['text'] = 'Enter valid city!'
         else:
