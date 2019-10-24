@@ -15,7 +15,7 @@ A small dark themed weather app in which you can enter your city or country name
     * Pyinstaller (*python module*)
         * command to install `pip install pyinstaller`
 * API used:
-    * OpenWeatherMap.org
+    * OpenWeatherMap<span></span>.org ("*http<span></span>s://api<span></span>.openweathermap.org/data/2.5/weather*")
 
 ### Instructions:
 
