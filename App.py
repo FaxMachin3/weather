@@ -39,7 +39,7 @@ def FormatWeather(weather):
     except:
         return 'Sorry! The was a problem retrieving information.'
 
-# function to make API call to openweathermap.org and parse the result
+# function to make API call to openweathermap.org's server and parse the result
 def GetWeather(city):
     try:
         if(city in [PLACEHOLDER, '']):
