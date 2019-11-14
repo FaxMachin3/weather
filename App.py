@@ -4,7 +4,7 @@ from tkinter import font # tkinter's libarary for fonts
 import requests # pip's Requests package to talk to API's
 from PIL import Image, ImageTk # pip Pillow libarary to display the weather icons
 
-# setting default values
+# setting default and global values
 HEIGHT = 400
 WIDTH = 650
 PRIMARYBG = '#333'
