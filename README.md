@@ -19,6 +19,6 @@ A small dark themed weather app in which you can enter your city or country name
 
 ### Instructions:
 
-You can always run the executable (*app.exe*) file from dist folder and use the features. Or else to run or modify code in your end you can first install Python and then all the modules, and run the *app.py* file.
+You can always run the executable (*app.exe*) file from executable folder and use the features. Or else to run or modify code in your end you can first install Python and then all the modules, and run the *app.py* file.
 
 >   Note: There is comment in functions and modules which I've used in my code so curious people can always have a look :)
