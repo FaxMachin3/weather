@@ -21,7 +21,7 @@ def userText(event):
 # function to display weather icon
 def AddIcon(icon):
     size = int(lowerFrame.winfo_height()*0.25)
-    img = ImageTk.PhotoImage(Image.open('./img/'+icon+'.png').resize((size, size)))
+    img = ImageTk.PhotoImage(Image.open('./assests/icons/'+icon+'.png').resize((size, size)))
     weatherIcon.delete("all")
     weatherIcon.create_image(0,0, anchor='nw', image=img)
     weatherIcon.image = img
@@ -59,7 +59,7 @@ root = tk.Tk()
 root.minsize(height=HEIGHT, width=WIDTH)
 root.maxsize(height=HEIGHT+100, width=WIDTH+200)
 root.title("Dark Weather")
-root.iconbitmap(r'./assests/sun_icon.ico')
+root.iconbitmap(r'./assests/logo.ico')
 
 # canvas
 canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH, bg=PRIMARYBG)
